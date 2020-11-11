@@ -1,0 +1,47 @@
+{
+  "fluentMethods": true,
+  "clientRootFolder": "persona",
+  "relationships": [
+    {
+      "relationshipName": "domicilio",
+      "otherEntityName": "domicilio",
+      "relationshipType": "one-to-one",
+      "relationshipValidateRules": [],
+      "otherEntityField": "id",
+      "ownerSide": true,
+      "useJPADerivedIdentifier": false,
+      "otherEntityRelationshipName": "persona"
+    },
+    {
+      "relationshipName": "libro",
+      "otherEntityName": "libro",
+      "relationshipType": "one-to-many",
+      "otherEntityRelationshipName": "persona"
+    }
+  ],
+  "fields": [
+    {
+      "fieldName": "nombre",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "apellido",
+      "fieldType": "String",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "dni",
+      "fieldType": "Integer"
+    }
+  ],
+  "changelogDate": "20201111193719",
+  "dto": "no",
+  "searchEngine": false,
+  "service": "serviceImpl",
+  "entityTableName": "persona",
+  "databaseType": "sql",
+  "readOnly": false,
+  "jpaMetamodelFiltering": false,
+  "pagination": "pagination",
+  "microserviceName": "persona"
+}

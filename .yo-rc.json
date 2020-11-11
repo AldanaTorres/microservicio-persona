@@ -36,6 +36,7 @@
     "languages": ["es", "en"],
     "blueprints": [],
     "skipClient": true,
-    "skipUserManagement": true
+    "skipUserManagement": true,
+    "lastLiquibaseTimestamp": 1605125178000
   }
 }
