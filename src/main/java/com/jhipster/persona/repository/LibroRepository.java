@@ -17,13 +17,4 @@ import java.util.Optional;
 @SuppressWarnings("unused")
 @Repository
 public interface LibroRepository extends JpaRepository<Libro, Long> {
-    @Query(value = "select distinct libro from Libro libro left join fetch libro.autores",
-        countQuery = "select count(distinct libro) from Libro libro")
-    Page<Libro> findAllWithEagerRelationships(Pageable pageable);
-
-    @Query("select distinct libro from Libro libro left join fetch libro.autores")
-    List<Libro> findAllWithEagerRelationships();
-
-    @Query("select libro from Libro libro left join fetch libro.autores where libro.id =:id")
-    Optional<Libro> findOneWithEagerRelationships(@Param("id") Long id);
 }

@@ -44,8 +44,8 @@ spring:
       indent-output: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:mysql://localhost:3306/microserviciopersona?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
-    username: root
+    url: jdbc:h2:file:./target/h2db/db/persona;DB_CLOSE_DELAY=-1
+    username: persona
     password:
     hikari:
       poolName: Hikari
