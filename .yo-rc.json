@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.jhipster.persona",
+      "nativeLanguage": "es"
+    },
+    "jhipsterVersion": "6.10.4",
+    "applicationType": "microservice",
+    "baseName": "persona",
+    "packageName": "com.jhipster.persona",
+    "packageFolder": "com/jhipster/persona",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ODZiZjQzODg4Y2E3YmM0ZjYxYTA0NTIwZWYwMDQ0MjkzNGE2Nzc2Y2I0NmIwNDkzNWYwMTE1NDYwY2Q4NzIwNmY5MGY1YWFiYmI0YTk2NWM0ZDZkNjBlOWRjMmZmMTIwOWUzZjljYTAzNTE4NmFhOGQxMzAyZGY1OWM2ZGJmYWE=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1605123199311,
+    "testFrameworks": ["gatling"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "es",
+    "languages": ["es", "en"],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
