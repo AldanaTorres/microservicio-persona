@@ -28,7 +28,7 @@ import java.util.Optional;
  */
 @RestController
 @CrossOrigin(origins = "*")
-@RequestMapping(path = "/api/v1/personas")
+@RequestMapping(path = "/api")
 public class PersonaResource {
 
     private final Logger log = LoggerFactory.getLogger(PersonaResource.class);

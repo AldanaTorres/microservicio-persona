@@ -28,7 +28,7 @@ import java.util.Optional;
  */
 @RestController
 @CrossOrigin(origins = "*")
-@RequestMapping(path = "/api/v1/domicilios")
+@RequestMapping(path = "/api")
 public class DomicilioResource {
 
     private final Logger log = LoggerFactory.getLogger(DomicilioResource.class);

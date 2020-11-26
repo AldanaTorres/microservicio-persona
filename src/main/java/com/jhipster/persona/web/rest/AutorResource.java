@@ -29,7 +29,7 @@ import java.util.Optional;
  */
 @RestController
 @CrossOrigin(origins = "*")
-@RequestMapping(path = "/api/v1/autores")
+@RequestMapping(path = "/api")
 public class AutorResource {
 
     private final Logger log = LoggerFactory.getLogger(AutorResource.class);

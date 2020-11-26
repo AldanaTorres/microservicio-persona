@@ -28,7 +28,7 @@ import java.util.Optional;
  */
 @RestController
 @CrossOrigin(origins = "*")
-@RequestMapping(path = "/api/v1/libros")
+@RequestMapping(path = "/api")
 public class LibroResource {
 
     private final Logger log = LoggerFactory.getLogger(LibroResource.class);
